@@ -1,7 +1,5 @@
 """Made by Vaibhav Dixit, (COMP A - AIT Pune)  """
-""" A cascaded cryptography system based on an idea presented in a research paper.
-Encryption/Decryption of text, image, audio and video file is being done using armstrong numbers and matrices,
-also used multithreading while processing data to increase efficiency. """
+"""Encryption/Decryption of image file is being done using armstrong numbers and matrices. Multithreading while processing data to increase efficiency. """
 
 import os
 import threading
@@ -203,9 +201,9 @@ class FileProcessor:
 
 
 def main():
-    src_file = 'Sample_Image/Original_Img.jpg'
-    encrypted_file = 'Sample_Image/Encrypted_Img.jpg'
-    final_file = 'Sample_Image/FinalDecrypted_Img.jpg'
+    src_file = 'Images/Original_Img.jpg'
+    encrypted_file = 'Images/Encrypted_Img.jpg'
+    final_file = 'Images/FinalDecrypted_Img.jpg'
 
     user_key = 'What is your favourite color?'
     # Encrypting original file creating a new  encrypted file
